@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home_Screen">
+
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/sm_5aff6089d3e02" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="200dp"
+        app:srcCompat="@drawable/ITunes_12" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="400dp"
+        app:srcCompat="@drawable/Wikimedia-logo"
+        tools:srcCompat="@drawable/fblogo" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/images"
+        android:layout_marginLeft="200dp"/>
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="200dp"
+        app:srcCompat="@drawable/icon-png-logos-7"
+        tools:srcCompat="@drawable/download" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="400dp"
+        app:srcCompat="@drawable/pexels-photo-236047"
+        tools:srcCompat="@drawable/bd886d7ccc6f8dd8db17e841233c9656" />
+
+</RelativeLayout>
